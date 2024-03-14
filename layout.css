@@ -1,0 +1,23 @@
+.borderLine{
+    border: 1px solid violet;
+    margin-top: 10px;
+}
+
+header{
+    
+    width: 100%;
+    height: 100px;
+}
+
+main{
+    width:100%;
+    height: 100%;
+    float: left;
+    margin-right: 20;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
