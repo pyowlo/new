@@ -1,29 +1,33 @@
-.borderLine{
+.borderLine {
     border: 1px solid violet;
     margin-top: 10px;
 }
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+}
 
-header{
-    
-    width: 100%;
+header, nav, footer, aside, section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header, footer {
     height: 100px;
 }
 
-main{
-    width:49%;
-    height: 100%;
-    float: left;
-    margin-right: 10;
-}
-aside{
-    float: left;
-    width: 49%;
-    height: 100%;
-    margin-left: 10;
+nav {
+    height: 50px;
 }
 
-footer{
-    width: 100%;
+aside, section {
+    flex: 1;
+    margin: 10px;
+    height: 100vh;
+}
+
+footer {
     height: 100px;
-    float: left;
 }
